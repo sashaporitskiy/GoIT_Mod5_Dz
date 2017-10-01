@@ -1,5 +1,6 @@
 package PackageCar;
 
+import javax.swing.event.SwingPropertyChangeSupport;
 import java.util.Scanner;
 
 public class Main {
@@ -9,6 +10,19 @@ public class Main {
         int inputInt;
 
         displayOpshins();
+
+        do {
+            System.out.println("\n Please choose an option: ");
+            inputInt = sc.nextInt();
+            if (inputInt==0) break;
+            switch (inputInt){
+                case 1:
+                    System.out.println();
+                    break;
+                case 2:
+                    break;
+            }
+        } while (true);
     }
 
     static void displayOpshins() {
