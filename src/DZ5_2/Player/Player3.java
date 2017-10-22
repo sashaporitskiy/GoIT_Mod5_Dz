@@ -1,4 +1,22 @@
 package DZ5_2.Player;
 
-public class Player3 {
+/*
+Плеер 3.
+Имеет final цену(задается в конструкторе) и геттер
+Имеет плейлист
+playSong Может проиграть первую песню
+playAllSongs может проиграть все песни
+ */
+
+public class Player3 extends PlayerSongList {
+
+    public Player3(double price) {
+        super(price);
+    }
+
+    @Override
+    public void playSong() {
+        setSong(playlist[0]);
+        super.playSong();
+    }
 }
