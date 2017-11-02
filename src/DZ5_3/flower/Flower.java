@@ -1,4 +1,4 @@
-package DZ5_3;
+package DZ5_3.flower;
 
 /*
 Задание 1
