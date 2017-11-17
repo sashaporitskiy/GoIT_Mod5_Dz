@@ -18,7 +18,7 @@ public class Homework10 {
         Fruit fruitBanana = new Fruit(Fruit.FruitType.Banana, 2, "21/10/2017", 18);
 
 
-        Store store = new Store(); 
+        Store store = new Store();
         store.add(fruitApple);
         store.add(fruitOrange);
         store.add(fruitBanana);
